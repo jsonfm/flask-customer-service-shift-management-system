@@ -1,0 +1,26 @@
+{
+  "name": "flask-customer-service-shift-management-system",
+  "version": "1.0.0",
+  "description": "A customer service shift management system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonfm/flask-customer-service-shift-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsonfm/flask-customer-service-shift-management-system/issues"
+  },
+  "homepage": "https://github.com/jsonfm/flask-customer-service-shift-management-system#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "daisyui": "^3.5.1"
+  }
+}
