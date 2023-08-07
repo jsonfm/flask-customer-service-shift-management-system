@@ -25,5 +25,5 @@ flask --app main run --debug
 ### 🎨 Tailwind
 
 ```
-npx tailwindcss -i ./app/static/css/tailwind.css -o ./app/static/css/styles.css --watch
+npx tailwindcss -i ./flaskr/static/css/tailwind.css -o ./flaskr/static/css/styles.css --watch
 ```
