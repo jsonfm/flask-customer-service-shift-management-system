@@ -1,0 +1,31 @@
+{% extends "layout/index.html" %}
+
+
+{% block content %}
+<section>
+    <div class="container min-h-screen flex flex-col items-center justify-center">
+        <div class="flex flex-col md:flex-row w-[300px] md:w-[600px] xl:w-[700px] min-h-[450px] shadow-md">
+            <div class="hidden md:flex flex-col gap-4 items-center justify-center w-full md:w-1/2 h-full min-h-[450px] bg-primary p-4 text-white rounded-md">
+                <h4 class="uppercase font-bold text-xl">Customy</h4>
+                <p class="capitalize text-center">serve your customers in an agile way.</p>
+            </div>
+            <form class="w-full md:w-1/2 flex flex-col gap-4  md:p-8"">
+                <h4 class="text-center text-xl mb-4 text-primary font-bold">Welcome</h4>
+                <div class="flex flex-col">
+                    <label class="text-neutral font-bold">Email</label>
+                    <input class="outline-none border-none px-2 py-2 rounded-full focus:border focus:border-primary" placeholder="email@example.com" type="email">
+                </div>
+                <div class="flex flex-col">
+                    <label class="text-neutral font-bold">Password</label>
+                    <input class="outline-none border-none px-2 py-2 rounded-full focus:border focus:border-primary" placeholder="****" type="password">
+                </div>
+                <button class="btn btn-primary px-4">
+                    Login
+                </button>
+                <a class="mt-8 text-center">Forgot your password?</a>
+            </form>
+            
+        </div>
+    </div>
+</section>
+{% endblock %}
