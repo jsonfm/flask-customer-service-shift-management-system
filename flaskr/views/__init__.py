@@ -11,3 +11,7 @@ def configure_render_view_paths(app: Flask):
     @app.route("/login")
     def login_view():
         return render_template("login.html")
+
+    @app.route("/shifts")
+    def shifts_view():
+        return render_template("shifts.html")
