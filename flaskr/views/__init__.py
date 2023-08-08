@@ -15,3 +15,12 @@ def configure_render_view_paths(app: Flask):
     @app.route("/shifts")
     def shifts_view():
         return render_template("shifts.html")
+
+    # Admin
+    @app.route("/admin")
+    def admin_view():
+        return render_template("admin/index.html")
+
+    @app.route("/admin/users")
+    def admin_users_view():
+        return render_template("admin/users.html")
